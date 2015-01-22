@@ -7,14 +7,99 @@
 			<title><cms:text constant="site_title"/></title>
 			<cms:module name="head_tag" action="print_tag"/>
 		</head>
-
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
-			<h1>It works!</h1>
-			<cms:module
-				name="contact_form"
-				action="show"
-				text_id="test"
-			/>
+			<!-- Top Section of the Site -->
+			<header>
+
+					<div class="inner_wrap">
+						<h1><cms:text constant="header"/></h1>
+						<span></span>
+					</div>
+					<!-- FORM CONTAINER -->
+					<div class="form_wrap">
+						<span><cms:text constant="form_title"/></span>
+						<cms:module
+								name="contact_form"
+								action="show"
+								text_id="contact_form"
+								/>
+
+					</div>
+			</header>
+			<!-- About Us Section of the site -->
+			<div class="about">
+					<div class="inner_wrap">
+						<cms:module
+								name="articles"
+								action="show"
+								text_id="about_us"
+								template="parts/article_header.xml"
+						/>
+					</div>
+			</div>
+			<!-- Feature Part Of The Site -->
+			<div class="feature_wrap">
+					<div class="inner_wrap">
+						<div class="features">
+							<cms:module
+								name="articles"
+								action="show"
+								text_id="feature_right"
+								template="parts/article_header.xml"
+								/>
+						</div>
+						<div class="features">
+							<cms:module
+								name="articles"
+								action="show"
+								text_id="feature_center"
+								template="parts/article_header.xml"
+								/>
+						</div>
+						<div class="features">
+							<cms:module
+								name="articles"
+								action="show"
+								text_id="feature_left"
+								template="parts/article_header.xml"
+								/>
+						</div>
+
+						<div class="request">
+							<cms:module
+								name="articles"
+								action="show"
+								text_id="request_article"
+								template="parts/article_header.xml"
+								/>
+						</div>
+
+
+					</div>
+			</div>
+			<!-- Bottom part of the site -->
+			<footer>
+					<div class="form_wrap">
+						<span><cms:text constant="form_title"/></span>
+						<cms:module
+								name="contact_form"
+								action="show"
+								text_id="contact_form"
+								/>
+					</div>
+					<div class="inner_wrap">
+
+					</div>
+
+					<div class="copyright">
+						<div class="inner_copyright">
+							<span><cms:text constant="copyright"/></span>
+						</div>
+						<div class="inner_copyright_heb">
+							<span><cms:text constant="hebrew_right"/></span>
+						</div>
+					</div>
+			</footer>
 		</body>
 	</html>
 </document>
