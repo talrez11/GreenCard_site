@@ -439,7 +439,7 @@ footer div.inner_wrap {
 	background-repeat: no-repeat;
 	background-position: 770px 450px;
 	background-size: auto 250px;
-	height: 800px;
+	height: 799px;
 }
 
 footer div.copyright {
@@ -493,6 +493,35 @@ footer div.copyright div.inner_copyright span a:nth-of-type(1) {
 
 footer div.copyright div.inner_copyright span a:nth-of-type(2) {
 	color:#fbc926;
+}
+
+/*TABLET*/
+
+@media (max-width: 1200px) {
+	body{
+		width: 1200px;
+	}
+
+	header div.inner_wrap h1 {
+		padding-right: 20px;
+	}
+
+	header div.form_wrap {
+		right:-330px;
+	}
+
+	div.about div.inner_wrap article {
+		padding-right: 20px;
+	}
+
+	div.feature_wrap div.inner_wrap div.request h2 {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	footer div.form_wrap {
+		right:-330px;
+	}
 }
 
 
