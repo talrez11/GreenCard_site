@@ -10,7 +10,6 @@
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
 			<!-- Top Section of the Site -->
 		<cms:desktop>
-
 			<header>
 
 					<div class="inner_wrap">
@@ -29,9 +28,7 @@
 								/>
 
 					</div>
-
 			</header>
-
 		</cms:desktop>
 
 		<cms:mobile>
