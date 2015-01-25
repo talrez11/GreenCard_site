@@ -20,7 +20,7 @@ header {
 	display: block;
 	background-image: url(../images/header-background.jpg);
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center center;
 	background-size: auto 700px;
 	height: 700px;
 	position: relative;
@@ -409,24 +409,24 @@ footer div.form_wrap form label input:focus {
 }
 
 footer div.form_wrap form div.controls {
-  display: block;
-  width: 540px;
-  padding-top: 20px;
-  text-align: left;
+	display: block;
+	width: 540px;
+	padding-top: 20px;
+	text-align: left;
 }
 
 footer div.form_wrap form div.controls button {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 15px;
-  padding-left: 15px;
-  background: linear-gradient(0deg, rgba(91, 165, 37, 1) 0%, rgba(118, 204, 30, 1) 100%);
-  border: 1px solid #16A61E;
-  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7);
-  color: white;
-  font-size: 1.7em;
-  cursor: pointer;
-  transition:all 0.3s;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	background: linear-gradient(0deg, rgba(91, 165, 37, 1) 0%, rgba(118, 204, 30, 1) 100%);
+	border: 1px solid #16A61E;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7);
+	color: white;
+	font-size: 1.7em;
+	cursor: pointer;
+	transition:all 0.3s;
 }
 
 footer div.form_wrap form div.controls button:hover {
@@ -497,9 +497,24 @@ footer div.copyright div.inner_copyright span a:nth-of-type(2) {
 
 /*TABLET*/
 
-@media (max-width: 1200px) {
-	body{
-		width: 1200px;
+@media (max-width: 1400px) {
+	header div.form_wrap {
+		right:-330px;
+	}
+
+	footer div.form_wrap {
+		right:-330px;
+	}
+
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+	div.inner_wrap {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	position: relative;
 	}
 
 	header div.inner_wrap h1 {
@@ -514,6 +529,14 @@ footer div.copyright div.inner_copyright span a:nth-of-type(2) {
 		padding-right: 20px;
 	}
 
+	div.feature_wrap div.inner_wrap div.features {
+		width: 300px;
+	}
+
+	div.feature_wrap div.inner_wrap div.features:nth-of-type(3) p {
+		padding-top: 60px;
+	}
+
 	div.feature_wrap div.inner_wrap div.request h2 {
 		padding-left: 10px;
 		padding-right: 10px;
@@ -521,6 +544,10 @@ footer div.copyright div.inner_copyright span a:nth-of-type(2) {
 
 	footer div.form_wrap {
 		right:-330px;
+	}
+
+	footer div.inner_wrap {
+		background-position: 695px 450px;
 	}
 }
 
