@@ -69,6 +69,7 @@ header div.form_wrap {
 	height: 502px;
 	width: 1111px;
 	z-index: 1;
+	transition:all 1s;
 }
 
 header div.form_wrap > span {
@@ -245,7 +246,7 @@ div.feature_wrap div.inner_wrap div.features:before {
 	background-size: auto 250px;
 	height: 250px;
 	width: 250px;
-
+	transition:all 0.8s;
 }
 
 div.feature_wrap div.inner_wrap div.features:nth-of-type(1):before{
