@@ -308,7 +308,7 @@ footer {
 	display: block;
 	background-image:url(../images/newyorkcity-skyline.svg),url(../images/footer-background.jpg);
 	background-repeat: no-repeat,no-repeat;
-	background-position: center bottom, center center ;
+	background-position: center bottom, center center;
 	background-size: auto 354px,auto 800px;
 	height:800px;
 	position: relative;
