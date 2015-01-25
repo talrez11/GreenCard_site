@@ -104,13 +104,11 @@
 								template="parts/article_header.xml"
 								/>
 						</div>
-
-
 					</div>
 			</div>
 			<!-- Bottom part of the site -->
+			<cms:desktop>
 			<footer>
-				 <cms:desktop>
 					<div class="form_wrap">
 						<span><cms:text constant="form_title"/></span>
 						<cms:module
@@ -119,7 +117,6 @@
 								text_id="contact_form"
 								/>
 					</div>
-				</cms:desktop>
 					<div class="inner_wrap">
 
 					</div>
@@ -133,6 +130,31 @@
 						</div>
 					</div>
 			</footer>
+		</cms:desktop>
+		<cms:mobile>
+			<footer>
+					<div class="form_wrap">
+						<span><cms:text constant="form_title"/></span>
+						<cms:module
+								name="contact_form"
+								action="show"
+								text_id="contact_form"
+								/>
+					</div>
+					<div class="inner_wrap">
+
+					</div>
+
+					<div class="copyright">
+						<div class="inner_copyright_heb">
+							<span><cms:text constant="hebrew_right"/></span>
+						</div>
+						<div class="inner_copyright">
+							<span><cms:text constant="copyright"/></span>
+						</div>
+					</div>
+			</footer>
+		</cms:mobile>
 		</body>
 	</html>
 </document>
