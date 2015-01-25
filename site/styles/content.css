@@ -243,13 +243,14 @@ div.feature_wrap div.inner_wrap div.features:before {
 	margin-left: -125px;
 	background-image: url(../images/features-icons.svg);
 	background-repeat: no-repeat;
-	background-size: auto 250px;
+	background-size: 750px 250px;
 	height: 250px;
 	width: 250px;
 	transition:all 0.8s;
 }
 
 div.feature_wrap div.inner_wrap div.features:nth-of-type(1):before{
+
 	background-position: -500px top;
 }
 
@@ -310,7 +311,7 @@ footer {
 	background-image:url(../images/newyorkcity-skyline.svg),url(../images/footer-background.jpg);
 	background-repeat: no-repeat,no-repeat;
 	background-position: center bottom, center center;
-	background-size: auto 354px,auto 800px;
+	background-size: 1921px 354px,auto 800px;
 	height:800px;
 	position: relative;
 }
@@ -439,7 +440,7 @@ footer div.inner_wrap {
 	background-image: url(../images/logo.svg);
 	background-repeat: no-repeat;
 	background-position: 770px 450px;
-	background-size: auto 250px;
+	background-size: 250px 250px;
 	height: 799px;
 }
 
