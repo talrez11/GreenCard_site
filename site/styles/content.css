@@ -75,7 +75,8 @@ header div.form_wrap {
 header div.form_wrap > span {
 	display: block;
 	padding-right: 375px;
-	padding-top: 40px;
+	padding-left: 20px;
+	padding-top: 35px;
 	font-size: 1.8em;
 	color: white;
 	text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.7);
@@ -332,7 +333,8 @@ footer div.form_wrap {
 footer div.form_wrap > span {
 	display: block;
 	padding-right: 375px;
-	padding-top: 40px;
+	padding-left: 20px;
+	padding-top: 35px;
 	font-size: 1.8em;
 	color: white;
 	text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.7);
