@@ -2,12 +2,12 @@
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
 	<language name="Hebrew" short="he" rtl="yes" default="yes">
-		<constant name="site_title">Site title</constant>
+		<constant name="site_title">Green Card</constant>
 		<constant name="header">אז אתה רוצה לקבל ויזה לארצות הברית ומחפש דרך לעשות את זה?</constant>
 		<constant name="form_title">אתה מוזמן להשאיר פרטים ואנחנו נחזור אליך בהקדם עם כל הפרטים לאיך אתה יכול להשתתף בהגרלה דרכנו!
 		</constant>
 		<constant name="send">שלח טופס</constant>
-		<constant name="copyright">Designed and developed by<![CDATA[<a href="http://way2cu.com">Way2cu</a>.<br>]]>promoted by <![CDATA[<a href="http://oxerve.com">Oxerve</a>.<br>]]> All rights reserved.</constant>
+		<constant name="copyright">Designed and developed by<![CDATA[<a href="http://way2cu.com">Way2cu.</a>]]> Promoted by <![CDATA[<a href="http://oxerve.com">Oxerve</a><br>]]> All rights reserved.</constant>
 		<constant name="hebrew_right">מדיניות פרטיות משתמשים</constant>
 
 	</language>
