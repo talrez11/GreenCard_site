@@ -145,13 +145,13 @@ header div.form_wrap form label input {
 	padding-left: 5px;
 	padding-bottom: 15px;
 	background-color:#EBEFF0;
-	border:1px solid white;
-	font-size: 1.6em;
+	box-shadow: 0px 0px 0px 2px #EBEFF0 inset;
+	font-size: 1.4em;
 	transition:all 0.8s;
 }
 
 header div.form_wrap form label input:focus {
-	border:1px solid #11475F;
+	box-shadow: 0px 0px 0px 2px #11475F inset;
 }
 
 header div.form_wrap form div.controls {
@@ -403,13 +403,13 @@ footer div.form_wrap form label input {
 	padding-left: 5px;
 	padding-bottom: 15px;
 	background-color:#EBEFF0;
-	border:1px solid white;
-	font-size: 1.6em;
+	box-shadow: 0px 0px 0px 2px #EBEFF0 inset;
+	font-size: 1.4em;
 	transition:all 0.8s;
 }
 
 footer div.form_wrap form label input:focus {
-	border:1px solid #11475F;
+	box-shadow: 0px 0px 0px 2px #11475F inset;
 }
 
 footer div.form_wrap form div.controls {
@@ -458,14 +458,16 @@ footer div.copyright {
 footer div.copyright div.inner_copyright {
 	display: inline-block;
 	vertical-align: top;
-	width: 300px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 500px;
 	padding-left: 60px;
 	margin-left: auto;
 	margin-right: auto;
 	background-image: url(../images/way2cu-logo.svg);
 	background-repeat: no-repeat;
 	background-position: 10px center;
-	background-size: auto 50px;
+	background-size: 40px 40px;
 	text-align: left;
 	direction: ltr;
 	color:white;
@@ -476,8 +478,9 @@ footer div.copyright div.inner_copyright_heb {
 	display: inline-block;
 	vertical-align: top;
 	padding-top: 15px;
+	padding-bottom: 15px;
 	padding-right: 60px;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	color: white;
 }
 
