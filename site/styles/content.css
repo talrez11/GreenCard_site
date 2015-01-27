@@ -36,14 +36,21 @@ header div.inner_wrap {
 header div.inner_wrap h1 {
 	display: inline-block;
 	vertical-align: top;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 250px;
 	width: 550px;
+	background-image: url(../images/logo.svg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: auto 215px;
 	font-size: 3.5em;
 	font-weight: bold;
 	color: white;
 	text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
-header div.inner_wrap span {
+/*header div.inner_wrap span {
 	display: inline-block;
 	vertical-align: top;
 	padding-top: 85px;
@@ -54,7 +61,7 @@ header div.inner_wrap span {
 	background-size: auto 215px;
 	width: 215px;
 	height: 215px;
-}
+}*/
 
 /*FORM */
 
@@ -526,6 +533,8 @@ footer div.copyright div.inner_copyright span a:nth-of-type(2) {
 
 	header div.inner_wrap h1 {
 		padding-right: 20px;
+		padding-left: 190px;
+		font-size: 3.3em;
 	}
 
 	header div.form_wrap {
