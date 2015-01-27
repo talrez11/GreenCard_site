@@ -36,24 +36,18 @@ header div.inner_wrap {
 header div.inner_wrap h1 {
 	display: inline-block;
 	vertical-align: top;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 250px;
 	width: 550px;
+	background-image: url(../images/logo.svg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: auto 215px;
 	font-size: 3.5em;
 	font-weight: bold;
 	color: white;
 	text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.7);
-}
-
-header div.inner_wrap span {
-	display: inline-block;
-	vertical-align: top;
-	padding-top: 85px;
-	padding-right: 45px;
-	background-image: url(../images/logo.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: auto 215px;
-	width: 215px;
-	height: 215px;
 }
 
 /*FORM */
@@ -69,12 +63,14 @@ header div.form_wrap {
 	height: 502px;
 	width: 1111px;
 	z-index: 1;
+	transition:all 1s;
 }
 
 header div.form_wrap > span {
 	display: block;
 	padding-right: 375px;
-	padding-top: 40px;
+	padding-left: 20px;
+	padding-top: 35px;
 	font-size: 1.8em;
 	color: white;
 	text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.7);
@@ -143,13 +139,14 @@ header div.form_wrap form label input {
 	padding-left: 5px;
 	padding-bottom: 15px;
 	background-color:#EBEFF0;
-	border:1px solid white;
+	border:none;
+	box-shadow: 0px 0px 0px 2px #EBEFF0 inset;
 	font-size: 1.6em;
 	transition:all 0.8s;
 }
 
 header div.form_wrap form label input:focus {
-	border:1px solid #11475F;
+	box-shadow: 0px 0px 0px 2px #11475F inset;
 }
 
 header div.form_wrap form div.controls {
@@ -242,13 +239,14 @@ div.feature_wrap div.inner_wrap div.features:before {
 	margin-left: -125px;
 	background-image: url(../images/features-icons.svg);
 	background-repeat: no-repeat;
-	background-size: auto 250px;
+	background-size: 750px 250px;
 	height: 250px;
 	width: 250px;
-
+	transition:all 0.8s;
 }
 
 div.feature_wrap div.inner_wrap div.features:nth-of-type(1):before{
+
 	background-position: -500px top;
 }
 
@@ -309,7 +307,7 @@ footer {
 	background-image:url(../images/newyorkcity-skyline.svg),url(../images/footer-background.jpg);
 	background-repeat: no-repeat,no-repeat;
 	background-position: center bottom, center center;
-	background-size: auto 354px,auto 800px;
+	background-size: 1921px 354px,auto 800px;
 	height:800px;
 	position: relative;
 }
@@ -330,7 +328,8 @@ footer div.form_wrap {
 footer div.form_wrap > span {
 	display: block;
 	padding-right: 375px;
-	padding-top: 40px;
+	padding-left: 20px;
+	padding-top: 35px;
 	font-size: 1.8em;
 	color: white;
 	text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.7);
@@ -399,13 +398,14 @@ footer div.form_wrap form label input {
 	padding-left: 5px;
 	padding-bottom: 15px;
 	background-color:#EBEFF0;
-	border:1px solid white;
+	border:none;
+	box-shadow: 0px 0px 0px 2px #EBEFF0 inset;
 	font-size: 1.6em;
 	transition:all 0.8s;
 }
 
 footer div.form_wrap form label input:focus {
-	border:1px solid #11475F;
+	box-shadow: 0px 0px 0px 2px #11475F inset;
 }
 
 footer div.form_wrap form div.controls {
@@ -438,7 +438,7 @@ footer div.inner_wrap {
 	background-image: url(../images/logo.svg);
 	background-repeat: no-repeat;
 	background-position: 770px 450px;
-	background-size: auto 250px;
+	background-size: 250px 250px;
 	height: 799px;
 }
 
@@ -454,14 +454,16 @@ footer div.copyright {
 footer div.copyright div.inner_copyright {
 	display: inline-block;
 	vertical-align: top;
-	width: 300px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 500px;
 	padding-left: 60px;
 	margin-left: auto;
 	margin-right: auto;
 	background-image: url(../images/way2cu-logo.svg);
 	background-repeat: no-repeat;
 	background-position: 10px center;
-	background-size: auto 50px;
+	background-size: 40px 40px;
 	text-align: left;
 	direction: ltr;
 	color:white;
@@ -472,8 +474,9 @@ footer div.copyright div.inner_copyright_heb {
 	display: inline-block;
 	vertical-align: top;
 	padding-top: 15px;
+	padding-bottom: 15px;
 	padding-right: 60px;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	color: white;
 }
 
@@ -519,6 +522,8 @@ footer div.copyright div.inner_copyright span a:nth-of-type(2) {
 
 	header div.inner_wrap h1 {
 		padding-right: 20px;
+		padding-left: 190px;
+		font-size: 3.3em;
 	}
 
 	header div.form_wrap {

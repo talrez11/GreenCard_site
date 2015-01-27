@@ -9,19 +9,13 @@
 		</head>
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
 			<!-- Top Section of the Site -->
-		<cms:desktop>
-
 			<header>
-
 					<div class="inner_wrap">
 						<h1><cms:text constant="header"/></h1>
-						<span></span>
 					</div>
 					<!-- FORM CONTAINER -->
-
 					<div class="form_wrap">
 						<span><cms:text constant="form_title"/></span>
-
 						<cms:module
 								name="contact_form"
 								action="show"
@@ -29,34 +23,7 @@
 								/>
 
 					</div>
-
 			</header>
-
-		</cms:desktop>
-
-		<cms:mobile>
-			<header>
-
-					<div class="inner_wrap">
-						<span></span>
-						<h1><cms:text constant="header"/></h1>
-					</div>
-					<!-- FORM CONTAINER -->
-
-					<div class="form_wrap">
-						<span><cms:text constant="form_title"/></span>
-
-						<cms:module
-								name="contact_form"
-								action="show"
-								text_id="contact_form"
-								/>
-
-					</div>
-
-			</header>
-		</cms:mobile>
-
 			<!-- About Us Section of the site -->
 			<div class="about">
 					<div class="inner_wrap">
