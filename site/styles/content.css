@@ -50,19 +50,6 @@ header div.inner_wrap h1 {
 	text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
-/*header div.inner_wrap span {
-	display: inline-block;
-	vertical-align: top;
-	padding-top: 85px;
-	padding-right: 45px;
-	background-image: url(../images/logo.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: auto 215px;
-	width: 215px;
-	height: 215px;
-}*/
-
 /*FORM */
 
 header div.form_wrap {
