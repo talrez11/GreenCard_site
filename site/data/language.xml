@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
-	<language name="Hebrew" short="he" rtl="yes" default="yes">
+	<language name="Hebrew" short="he" rtl="yes">
 		<constant name="site_title">Green Card</constant>
 		<constant name="header">אז אתה רוצה לקבל ויזה לארצות הברית ומחפש דרך לעשות את זה?</constant>
 		<constant name="form_title">אתה מוזמן להשאיר פרטים ואנחנו נחזור אליך בהקדם עם כל הפרטים לאיך אתה יכול להשתתף בהגרלה דרכנו!</constant>
@@ -11,7 +11,7 @@
 	</language>
 
 
-	<language name="Arabic" short="ar" rtl="yes">
+	<language name="Arabic" short="ar" rtl="yes" default="yes">
 		<constant name="site_title">قرعة الجرين كارد للهجرة لأمريكا‎</constant>
 		<constant name="header">هل تريد الحصول على بطاقة خضراء (تأشيرة دخول) لأمريكا؟ نحن نضمن لك المشاركة بقرعة الجرين كارد الأمريكية!</constant>
 		<constant name="form_title">رجاءاً اترك تفاصيلك في الاستماره أدناه كيّ نعاود الاتصال بك لنشرح لك بالضبط كيف تشارك في يانصيب الجرين كارد:</constant>
